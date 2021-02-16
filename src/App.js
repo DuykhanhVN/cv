@@ -46,7 +46,7 @@ function App() {
 							</div>
 							<div className="col-2 off"></div>
 							<div className="col-5">
-								<img className="hero-image r-hide" src={ window.location.origin + '/img/khanh-circle.jpg' } width="100%" />
+								<img className="hero-image r-hide" src={ process.env.PUBLIC_URL + '/img/khanh-circle.jpg' } width="100%" />
 							</div>
 						</div>
 					</div>
